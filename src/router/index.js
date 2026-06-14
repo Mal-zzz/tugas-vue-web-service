@@ -19,7 +19,10 @@ const routes = [
   }
 ]
 
+createWebHashHistory()
+
 export default createRouter({
   history: createWebHistory(),
   routes
 })
+
